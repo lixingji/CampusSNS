@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>点滴记录</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link href="../dist/css/ratchet.css" rel="stylesheet">
+    <link href="../style/aipet_custom.css" rel="stylesheet">
+    <link href="../style/util.css" rel="stylesheet">
+    <link href="pet-owner.css" rel="stylesheet">
+    <!-- Include the compiled Ratchet JS -->
+    <script src="../js/jquery-2.1.0.js"></script>
+    <script src="../js/swipe.js" type="text/javascript"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="bar bar-standard bar-footer" style="
+    background-color:#CDB5CD">
+        <p>永远爱着你 </p>
+        <p>-------------------------------------  by <b>黎兴济</b> 2014/8/23</p>
+    </div>
+    <!-- service-type  Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div id="_id_content" class="content">
+
+        <!-- 图片轮换 -->
+
+        <div class="swipe" id="mySlider">
+            <div id="_id_img_div" class="swipe-wrap">
+
+            </div>
+            <div class="show_index_number" id="_id_show_number"></div>
+        </div>
+
+        <div class="main-service" style="margin-bottom:0px;">
+            <a href="life-little-things.html" class="set-service-type" service-type="0" data-transition="slide-in">
+                <img src="../img/life-img1.png" alt="点滴生活" />
+            </a>
+            <a href="our-future.html" class="set-service-type" service-type="1" data-transition="slide-in">
+                <img src="../img/future-img2.png" alt="未来之路" />
+            </a>
+            <a href="hand-your-hand.html" class="set-service-type" service-type="2" data-transition="slide-in">
+                <img src="../img/hand-img3.png" alt="执子之手" />
+            </a>
+            <a href="my-feel.html" data-transition="slide-in">
+                <img src="../img/feel-img4.png" alt="我的感受" />
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>

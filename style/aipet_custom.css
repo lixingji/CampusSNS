@@ -1,0 +1,1007 @@
+/*.table-view-cell {*/
+
+/*padding: 11px 15px;*/
+
+/*}*/
+
+p {
+    margin-bottom: 0;
+}
+a:hover {
+    text-decoration: n;
+}
+/*列表项右侧部分*/
+
+.list-right-content {
+    margin-right: 0px;
+    float: right;
+}
+/*列表中的内容*/
+
+.card>div {
+    padding: 11px 15px;
+    margin-bottom: 0;
+    border-top: solid 1px #ddd;
+    font-size: 14px;
+}
+.small-margin {
+    margin: 5px;
+}
+/*分页导航条*/
+
+.segmented-control {
+    padding: 0;
+}
+textarea {
+    font-size: 14px;
+    padding: 12px;
+}
+input {
+    font-size: 14px;
+}
+/*底部导航条图标*/
+
+.ic-home {
+    background: url("../img/indexIcon.png") no-repeat top center;
+}
+.ic-service {
+    background: url("../img/serverIcon.png") no-repeat top center;
+}
+.ic-my {
+    background: url("../img/mineIcon.png") no-repeat top center;
+}
+.active .ic-home {
+    background: url("../img/indexIconSelect.png") no-repeat top center;
+}
+.active .ic-service {
+    background: url("../img/serverIconSelect.png") no-repeat top center;
+}
+.active .ic-my {
+    background: url("../img/mineIconSelect.png") no-repeat top center;
+}
+.ic-home,
+.ic-service,
+.ic-my,
+.active .ic-home,
+.active .ic-service,
+.active .ic-my {
+    /*background: url("../img/indexIcon.png") no-repeat top center;*/
+    -webkit-background-size: 33px 23px;
+    background-size: 33px 23px;
+}
+/*列表加载更多*/
+
+.load-more {
+    margin-top: -15px;
+    font-size: 12px;
+    color: #c19303;
+    text-align: center;
+}
+/*首页*/
+
+.ap-bar-top {
+    background-color: #cb3202;
+}
+.ap-title-bar {
+    color: #ffffff;
+}
+.icon-logo {
+    background: url("../img/NavigationBarLogo.png") no-repeat left center;
+    -webkit-background-size: 50% 50%;
+    background-size: 50% 50%;
+}
+.pet-money {
+    background-color: #e7e7e7;
+    padding: 8px;
+    text-align: center;
+}
+.pet-money>div {
+    float: left;
+}
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+.clearfloat {
+    zoom: 1
+}
+.pet-money-info {
+    background: url("../img/redIntegral.png") no-repeat left center;
+    -webkit-background-size: 18px 18px;
+    background-size: 18px 18px;
+    padding-left: 21px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 10px;
+}
+.pet-money-info p {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.pet-money-info b {
+    color: #ff9320;
+}
+.checkin {
+    font-size: 14px;
+    color: #ff9320;
+    background: url("../img/signIn.png") no-repeat left center;
+    -webkit-background-size: 115px 25px;
+    background-size: 115px 25px;
+    height: 25px;
+    width: 115px;
+    padding-left: 30px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+/*幻灯片*/
+
+#mySlider {
+    background-color: transparent;
+}
+#mySlider img {
+    width: 100%;
+}
+/*主导航按钮*/
+
+.main-service {
+    width: 100%;
+    padding: 2px;
+}
+.main-service a {
+    width: 48%;
+    float: left;
+    margin-left: 5px;
+}
+.main-service a img {
+    width: 100%;
+}
+/*我的服务*/
+
+ul.service-list,
+ul.service-catagory-list {
+    background-color: transparent!important;
+    border: none;
+}
+.service-list-item p {
+    font-size: 12px;
+    color: #353535;
+}
+img.media-object {
+    width: 50px;
+    height: 50px;
+}
+i.key {
+    font-style: normal;
+    margin-right: 5px;
+    color: #9a9a9a;
+}
+h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.service-list-item>a.statusbar,
+.promotion-list-item>a.statusbar {
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    border-top: solid 1px #dddddd;
+}
+.promotion-list-item>a.statusbar {
+    /*text-align: left!important;*/
+}
+.statusbar p {
+    display: inline-block;
+    margin: 0 5px;
+    padding-left: 25px;
+}
+.tender-status1 {
+    background: url("../img/offering.png") no-repeat left center;
+}
+.tender-status1-2 {
+    background: url("../img/offering.png") no-repeat left center;
+}
+.tender-status2 {
+    background: url("../img/waitServer.png") no-repeat left center;
+}
+.tender-status3 {
+    background: url("../img/served.png") no-repeat left center;
+}
+.tender-status3-2 {
+    background: url("../img/unvalued.png") no-repeat left center;
+}
+.tender-status4 {
+    background: url("../img/offering.png") no-repeat left center;
+}
+.tender-status5 {
+    background: url("../img/offering.png") no-repeat left center;
+}
+.tender-status6 {
+    background: url("../img/offering.png") no-repeat left center;
+}
+.tender-num {
+    background: url("../img/tenderPeople.png") no-repeat left center;
+}
+.tender-time-left {
+    background: url("../img/timeLeft.png") no-repeat left center;
+}
+.tender-bingoServicer {
+    background: url("../img/selectServer.png") no-repeat left center;
+}
+.tender-status1,
+.tender-status2,
+.tender-status3,
+.tender-status3-2,
+.tender-status4,
+.tender-status5,
+.tender-status6,
+.tender-time-left,
+.tender-bingoServicer,
+.tender-num {
+    -webkit-background-size: 24px 19px;
+    background-size: 24px 19px;
+}
+.mine-info {
+    background: url("../img/myTopBg.png") no-repeat left center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 230px;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+}
+.avatar-frame {
+    background: url("../img/headPortraitBgheadPortraitBg.png") no-repeat center center;
+    height: 133px;
+    -webkit-background-size: 133px 133px;
+    background-size: 133px 133px;
+    padding-top: 9px;
+}
+.avatar-frame img {
+    width: 108px;
+    height: 108px;
+}
+.mine-info-wraper {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 2px;
+}
+.pet-money-info-m p,.pet-money-servicer-mine {
+    margin: 0 auto;
+    color: #e9e9e9;
+    text-align: center;
+    background: url("../img/petCoin.png") no-repeat left center;
+    -webkit-background-size: 18px 20px;
+    background-size: 18px 20px;
+    display: block;
+    width: 110px;
+    padding-left: 18px;
+}
+
+.mine-user-name {
+    color: #FFFFFF;
+}
+.mine-navi {
+    padding: 8px;
+}
+.mine-navi a {
+    display: inline-block;
+    width: 30.5%;
+    margin: 2px;
+    padding: 20px 0 0 0;
+    background-color: #fff;
+    text-align: center;
+}
+.mine-navi a p {
+    font-size: 14px;
+    padding-top: 5px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.mine-navi button {
+    width: 100%;
+    margin: 5px 0;
+    height: 40px;
+    background-color: #cb3202;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+}
+/*未读通知数*/
+.unread-number {
+    position: absolute;
+    background-color: #d01f02;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    top:0;
+    right: 0;
+}
+/*注册与登录界面*/
+
+img.login-logo {
+    height: 106px;
+    width: 106px;
+    position: absolute;
+    left: 50%;
+    top: 75px;
+    margin-left: -53px;
+}
+.account-form {
+    margin: 160px 5px 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: solid 1px #ddd;
+    overflow: hidden;
+}
+.account-form input {
+    margin-bottom: 0;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 45px;
+    font-size: 14px;
+}
+.account-form span {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+    color: #676767;
+    border-right: solid 1px #e7e7e7;
+    padding-right: 6px;
+}
+.captcha,
+.submit {
+    margin: 5px 5px;
+}
+.captcha input {
+    width: 60%;
+    float: left;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.captcha button {
+    width: 38%;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 0;
+    font-size: 14px;
+}
+.submit button {
+    background-color: #cb3502;
+    padding: 10px;
+    margin-top: 10px;
+}
+.switch-link {
+    width: 165px;
+    font-size: 14px;
+    text-align: center;
+    /*position: absolute;*/
+    /*top: 530px;*/
+    /*left: 50%;*/
+    /*margin-left: -83px;*/
+    margin: 20px auto;
+}
+.switch-link a {
+    color: #125ace;
+}
+.switch-link span {
+    padding: 0 10px;
+    color: #125ace;
+}
+/*服务详情页*/
+
+/*收到的报价*/
+
+.tender-time-left-bar,
+.promotion-time-left-bar {
+    /*height: 70px;*/
+    /*此高度设置会影响外层nav的高度*/
+    background-color: #e9e8e8;
+    text-align: center;
+}
+.tender-time-left-bar .time,
+.promotion-time-left-bar .time {
+    color: #cb3202;
+    font-size: 20px;
+    margin: 8px;
+}
+.tender-time-left-bar .tender-number,
+.promotion-time-left-bar .promotion-time {
+    color: #000;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.time-percentage {
+    position: absolute;
+    width: 0%;
+    bottom: 0;
+    height: 5px;
+    background-color: #cb3202;
+}
+h5 {
+    color: #353535;
+}
+.tender-list-item {
+    padding: 8px 8px 2px 8px!important;
+}
+.tender-list-item p {
+    font-size: 12px;
+}
+.tender-list-item img {
+    width: 40px;
+    height: 40px;
+}
+.tender-list-item .tender-info {
+    float: right;
+    text-align: right;
+}
+.servicer-rating img {
+    width: 12px;
+    height: 12px;
+}
+/*.tender-list-item .tender-info */
+
+p.tender-price {
+    font-size: 20px;
+    color: #cb3202;
+}
+.tender-list-item .servicer-info {
+    float: left;
+    margin-top: 5px;
+}
+/*需求详情*/
+
+.detail-full-width {
+    width: 100%;
+    background-color: #fff;
+    padding: 12px;
+}
+.service-overview img,
+.promotion-overview img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 12px;
+}
+.service-overview h3,
+.promotion-overview h3 {
+    font-size: 18px;
+    font-weight: normal;
+    float: left;
+}
+.service-overview h3,
+.promotion-overview h3,
+.service-overview .pet-weight {
+    margin: 5px 0 5px 0;
+}
+.service-overview .service-req-time,
+.promotion-overview .promotion-avail-time {
+    margin: 0 0 0 0;
+}
+.service-overview .service-req-id{
+    padding-left: 1.58cm;
+    padding-top: 8px;
+}
+.promotion-avail-time {
+    width: 100%;
+    display: block;
+}
+.table-view-cell {
+    font-size: 14px;
+}
+.service-time-location p {
+    text-align: left;
+    color: #000;
+}
+.card-content-list li {
+    list-style: none;
+    display: inline-block;
+    width: 64px;
+}
+/*li.standard-list {*/
+
+/*padding: 10px 0;*/
+
+/*}*/
+
+ul.card-content-list {
+    padding-left: 0;
+    margin: 0;
+}
+.custom-service li {
+    margin-right: -50px;
+}
+/*服务者详情*/
+
+/*报价详情*/
+
+.tender-price-block {
+    height: 70px;
+}
+.tender-price-block p.tender-price {
+    float: right;
+    margin-bottom: 0;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+.tender-price-block img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 12px;
+}
+.tender-price-block h4 {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+.servicer-tel-block {
+    border-top: solid 1px #ddd;
+}
+.servicer-tel {
+    display: inline-block;
+    font-size: 20px;
+    margin: 8px 0 0;
+}
+.make-call {
+    display: block;
+    float: right;
+    /*vertical-align: middle;*/
+    height: 35px;
+    border-left: solid 1px #ddd;
+    padding: 5px 10px;
+}
+/*服务者信息*/
+
+div.right {
+    float: right;
+}
+div.left {
+    width: 50%;
+    float: left;
+}
+.servicer-overview h4 {
+    margin-bottom: 0;
+}
+.rating-points {
+    color: #ec8c02;
+    font-size: 14px;
+}
+/*评价详情*/
+
+.rating-overview {
+    padding: 12px;
+}
+.rating-points {
+    padding-right: 8px;
+}
+.rating-overview img {
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-top: 3px;
+}
+.rating-overview:last-child {} .rating-overview p {
+    float: left;
+}
+.servicer-more-detail-link {
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: #c99002;
+}
+.white-bg {
+    background-color: #fff;
+}
+.single-comment {
+    padding: 12px;
+    border-bottom: 1px solid #bbb;
+}
+.single-comment:last-child {
+    border: none;
+}
+.user-name {
+    display: inline;
+    font-size: 16px;
+    color: #000;
+}
+.comment-timestamp {
+    float: right;
+    font-size: 10px;
+    color: #a7a7a7;
+}
+.rating-stars img {
+    width: 12px;
+    height: 12px;
+}
+.reply-wrap {
+    float: right;
+    background-color: #f1f1f1;
+    width: 90%;
+    padding: 12px;
+    margin: 5px 0;
+}
+/*待服务服务详情*/
+
+.service-status-bar,
+.servicer-available-bar,
+.promotion-status-bar {
+    background-color: #e8e8e8;
+    line-height: 44px;
+    font-size: 14px;
+    text-align: center;
+}
+.bar-number-emphasis {
+    font-size: 18px;
+    color: #cb3202;
+}
+/*已评价服务详情*/
+
+.service-status-bar img {
+    width: 12px;
+    height: 12px;
+}
+/*服务中止原因*/
+
+.reason-select {
+    padding: 10px 12px;
+}
+.reason-select button {
+    /*margin-top: -10px;*/
+    /*padding: 12px 0;*/
+    font-size: 14px;
+    color: #222;
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #e7e7e7;
+}
+.reason-select .btn-selected {
+    background-color: #a0b4dd;
+    color: #ffffff;
+}
+.reason-select textarea {
+    margin-top: 10px;
+}
+/*进行评价*/
+
+.make-rating {
+    padding: 5px 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+.make-rating img {
+    margin: 0 5px;
+}
+.rating-button {
+    display: block;
+    margin: 0 auto;
+    height: 29px;
+    line-height: 29px;
+}
+.rating-button span {} .comment-text-wrap {
+    margin: 0 12px;
+}
+.reply-text-wrap {
+    margin: 12px;
+}
+.add-photo {
+    margin-top: -10px;
+}
+.add-photo-buttom {
+    width: 60px;
+    height: 60px;
+    background: url("../img/addImage.png") top left;
+    -webkit-background-size: 60px 60px;
+    background-size: 60px 60px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.add-photo-hint {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 18px;
+    font-size: 14px;
+    color: #c99002;
+}
+/*发布新需求*/
+
+.demand-content {
+    margin-top: 22px;
+}
+.li-light {
+    color: #bbb!important;
+}
+h5.demand-small-title {
+    margin: 5px;
+    color: #858585;
+}
+.service-way-select>button {
+    width: 30%;
+    margin: 0!important;
+    /*padding: 0!important;*/
+}
+.petowner-location-input {
+    padding-left: 15px!important;
+    margin-bottom: 0 !important;
+
+}
+.service-way-select-wrap {
+    background-color: #e7e7e7;
+    margin-bottom: 15px;
+}
+.service-way-select-button {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+}
+.service-way-select-button-selected {
+    color: #fff;
+    background-color: #a0b4dd;
+}
+.location-hint ul {
+    /*width: 95%;*/
+    margin: 0 12px;
+}
+.location-hint ul li {
+    padding-left: 33px;
+    color: #bababa;
+}
+/*优惠列表*/
+
+ul.promotion-list {
+    background-color: transparent!important;
+    border: none;
+    margin-bottom: 80px;
+}
+.promotion-list p {
+    font-size: 12px;
+    color: #353535;
+}
+.promotion-list-item {
+    padding-right: 12px;
+}
+p.present-price {
+    color: #cb3404;
+    font-size: 20px;
+}
+p.original-price s {
+    color: #bbb;
+    text-align: right;
+}
+/*服务者首页*/
+
+.main-mata a {
+    width: 94%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.main-mata a img {
+    width: 100%;
+}
+/*服务者我的*/
+.mine-info-wraper p {
+    margin: 0 auto;
+    color: #e9e9e9;
+    text-align: center;
+    /*background: url("../img/petCoinRedIcon.png") no-repeat left center;*/
+    display: block;
+    /*width: 30%;*/
+    padding-left: 18px;
+}
+
+.pet-money-servicer-mine {
+
+}
+.mine-info-wraper p:first-child {
+    background: url("../img/petCoin.png") no-repeat left center;
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+}
+/*报价*/
+
+.edit-service-content {
+    float: right;
+    /*width: 40px;*/
+    /*padding: 10px;*/
+    /*height: 40px;*/
+    display: inline-block;
+    /*background: url("../img/dontCallUpIcon.png") no-repeat left center;*/
+    /*-webkit-background-size: 25px 25px;*/
+    /*background-size: 25px 25px;*/
+    border-left: 1px solid #dddddd;
+}
+.edit-service-content img {
+    clear: both;
+    width: 26px;
+    height: 26px;
+    padding: 5px;
+}
+.reply-comment-link {
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: #c99002;
+    border-top: solid 1px #bbbbbb;
+    padding-top: 12px;
+}
+/*我的*/
+
+/*通知*/
+
+.notification-list li.unread td:first-child {
+    color: #cb3404;
+}
+.notification-list li td:first-child {
+    width: 15px;
+}
+p.notice-content,
+p.pet-money-change-content {
+    color: #000000;
+}
+span.notice-timestamp,
+span.pet-money-change-timestamp {
+    color: #888888;
+}
+/*账户信息*/
+
+.heading-contact {
+    padding: 19px 50px;
+    background: #ffffff url("../img/mineIconSelect.png") no-repeat left;
+    -webkit-background-size: 50px;
+    background-size: 50px;
+}
+.heading-service {
+    padding: 19px 50px;
+    background: #ffffff url("../img/mineIconSelect.png") no-repeat left;
+    -webkit-background-size: 50px;
+    background-size: 50px;
+}
+.heading-pet-money h3,
+.heading-contact h3,
+.heading-service h3 {
+    margin-bottom: 0;
+}
+.form-ul {
+    margin-top: 12px;
+}
+.form-ul>li {
+    padding: 0;
+}
+.list-label {
+    display: inline-block;
+    float: left;
+    width: 70px;
+    text-align: right;
+    height: 35px;
+    line-height: 35px;
+    color: #a09a9a;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.list-input-text {
+    width: 50%!important;
+    border: none!important;
+    margin-bottom: 0 !important;
+}
+/*应用设置*/
+
+li.ic-left {
+    padding-left: 30px;
+}
+/*积分记录*/
+
+.heading-pet-money {
+    padding: 19px 50px;
+    background: #ffffff url("../img/petCoinRedIcon.png") no-repeat 5px;
+    -webkit-background-size: 30px 30px;
+    background-size: 30px 30px;
+}
+.heading-pet-money b {
+    /*font-size: 30px;*/
+    color: #d01f02;
+}
+.money-increase {
+    float: right;
+    color: #1bc014;
+    font-size: 25px;
+    text-align: right;
+    height: 40px;
+    line-height: 40px;
+}
+.money-decrease {
+    float: right;
+    color: #bc0a02;
+    font-size: 25px;
+    text-align: right;
+    height: 40px;
+    line-height: 40px;
+}
+table.pet-money-list-table {
+    width: 85%;
+}
+ul.pet-money-change>li {
+    padding: 11px 15px;
+}
+/*服务者中心*/
+
+div.servicer-info-wrapper {
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+}
+a.info-edit {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 46px;
+    height: 28px;
+    display: block;
+    background: url("../img/bannerEditIcon.png") top left;
+    -webkit-background-size: 46px 28px;
+    background-size: 46px 28px;
+}
+.servicer-info-detail {
+    padding: 3px 5px;
+    min-height: 70px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+}
+.servicer-info-detail>* {
+    color: #fff;
+}
+.service-catagory-list h5 {
+    margin-top: 10px;
+}
+.service-catagory-list-item {
+    padding: 12px;
+}
+
+.service-catagory-list-item table td:first-child {
+    width: 60px;
+}
+
+.service-catagory-list-item table td:last-child a{
+    padding-left: 25px;
+    /*height: 25px;*/
+    display: block;
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+}
+
+.service-catagory-list-item table {
+    width: 100%;
+}
+
+.service-catagory-list-item table .actived{
+    color: #c99002;
+    background: url("../img/editIcon.png") no-repeat;
+}
+
+.service-catagory-list-item table .unactived{
+    color: #a9a9a9;
+    background: url("../img/activateIcon.png") no-repeat;
+}
+
+.service-catagory-title {
+    margin: 10px;
+}
+

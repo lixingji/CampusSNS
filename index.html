@@ -1,96 +1,15 @@
-<!-- <!Doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>share demo</title>
     <meta charset="utf-8">
-    <script>
-        var imgUrl = "http://mycourse-c9-jetgoole.c9.io/menmory/img/futrue1.jpg";
-        var lineLink = "http://mycourse-c9-jetgoole.c9.io/menmory/life/index.html";
-        var descContent = 'to 晓彦';
-        var shareTitle = '得此女子，夫复何求';
-        var appid = '';
-         
-        function shareFriend() {
-            WeixinJSBridge.invoke('sendAppMessage',{
-                "appid": appid,
-                "img_url": imgUrl,
-                "img_width": "200",
-                "img_height": "200",
-                "link": lineLink,
-                "desc": descContent,
-                "title": shareTitle
-            }, function(res) {
-                //_report('send_msg', res.err_msg);
-            })
-        }
-        function shareTimeline() {
-            WeixinJSBridge.invoke('shareTimeline',{
-                "img_url": imgUrl,
-                "img_width": "200",
-                "img_height": "200",
-                "link": lineLink,
-                "desc": descContent,
-                "title": shareTitle
-            }, function(res) {
-                   //_report('timeline', res.err_msg);
-            });
-        }
-        function shareWeibo() {
-            WeixinJSBridge.invoke('shareWeibo',{
-                "content": descContent,
-                "url": lineLink,
-            }, function(res) {
-                //_report('weibo', res.err_msg);
-            });
-        }
-        // 当微信内置浏览器完成内部初始化后会触发WeixinJSBridgeReady事件。
-        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
-            // 发送给好友
-            WeixinJSBridge.on('menu:share:appmessage', function(argv){
-                shareFriend();
-            });
-            // 分享到朋友圈
-            WeixinJSBridge.on('menu:share:timeline', function(argv){
-                shareTimeline();
-            });
-            // 分享到微博
-            WeixinJSBridge.on('menu:share:weibo', function(argv){
-                shareWeibo();
-            });
-        }, false);
-</script>
-    </head>
-    <body>
-    <p>这是一个微信中分享的示例代码1</p>
-        <button onclick="shareTimeline();">分享到朋友圈</button>
-    </body>
+    <title>点滴记录</title>
+</head>
 
-    </html> -->
+<body>
+    <div onclick="alert(NaN)">222</div>
+    <!-- <iframe src="javascript:alert(1)"></iframe> -->
+    <!-- <s style="top:expression(alert(1))"></s> -->
+</body>
 
-
-    <!Doctype html>
-    <html>
-    <head>
-        <meta charset="utf-8">
-        <title>绝对布局</title>
-        <style type="text/css">
-        *{margin:0;padding: 0;}
-        body{width:80%;margin: 0 auto;}
-        .box1{background: blue;height: 100px;position: absolute;top:20px;left:50px;};
-        .box2{background: green;height: 100px;};
-        .box3{background: yellow;height: 100px;};
-        .absoluteCSS{background: white;height: 100px;};
-        </style>
-    </head>
-    <body>
-        <div class="box1">111
-        </div>
-        <div class="box2">222
-            <p class="absoluteCSS">2222_2222</p>
-        </div>
-        <div class="box3">333
-        </div>
-
-    </body>
-    </html>
+</html>

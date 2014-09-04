@@ -1,0 +1,111 @@
+.control-item{
+	 width: 1%;
+  padding-top: 15px;
+  padding-bottom: 16px;
+  line-height: 1;
+  color: #333;
+  text-align: center;
+  background-color: #e7e7e7;
+}
+.background_color {
+    width:100%;
+	height:100%;
+	background:#636363;
+ 	position:fixed; 
+	top:0px;
+	left:0px;
+	/* display:none; */
+	filter:alpha(opacity=50);
+	opacity:0.8;
+	z-index:10;
+}
+
+.background_Content {
+    position:fixed;
+    background-color: #ffffff;
+    word-break:break-all;
+    width: 70%;
+    height: 40%;
+    top: 30%;
+    left: 15%;
+    border-radius: 10px;
+    z-index:11;
+}
+
+.background_btn {
+    position:absolute;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    bottom: 5%;
+    z-index:12;
+}
+
+.alertView_btn {
+    position:absolute;
+    width: 40%;
+    height: 20%;
+    left: 5%;
+    bottom: 5%;
+    z-index:12;
+}
+.alertView_clr {
+    position:absolute;
+    width: 40%;
+    height: 20%;
+    right:5%;
+    bottom: 5%;
+    z-index:12;
+}
+
+.background_top {
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    height:20%;
+    line-height: 250%;
+    background-color: #CB3202;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.2em;
+}
+
+.alertView_content {
+    position:absolute;
+    text-align: center;
+    word-break:break-all;
+    width: 90%;
+    height: 45%;
+    top: 25%; 
+    left: 5%;
+    font-size: 1.2em;
+    border-radius: 10px;
+    z-index:11;
+}
+
+.alertView {
+    display: none;
+}
+
+.toastView {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    border: 1px solid #666;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0 ;
+    text-align:center;
+    opacity: .9;
+
+    -webkit-transition: opacity 0.5s ease-out; /* Saf3.2+, Chrome */
+    -moz-transition: opacity 0.5s ease-out; /* FF4+ */
+    -ms-transition: opacity 0.5s ease-out; /* IE10? */
+    -o-transition: opacity 0.5s ease-out; /* Opera 10.5+ */
+    transition: opacity 0.5s ease-out;
+    border-radius: 10px;
+	z-index:10;
+}

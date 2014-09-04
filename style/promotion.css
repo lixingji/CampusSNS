@@ -1,0 +1,95 @@
+.lineDiv {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 6px;
+}
+
+.lineDiv_solid {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 6px;
+	border: 1px solid #DBDCDB;
+}
+
+.line {
+	height: 1px;
+	width: 100%;
+	border-bottom: 1px solid #DBDCDB;
+}
+
+.lineinDiv {
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #ffffff;
+	display: -moz-box;
+	display: -webkit-box;
+	display: box;
+	-moz-box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+	box-orient: horizontal;
+	display: -moz-box;
+}
+.lineinDiv_padding {
+	height: auto;
+	padding: 5px;
+	background-color: #ffffff;
+	display: -moz-box;
+	display: -webkit-box;
+	display: box;
+	-moz-box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+	box-orient: horizontal;
+	display: -moz-box;
+}
+.lineoutDiv{
+	text-align:right;
+	-moz-box-flex: 2;
+	-webkit-box-flex: 2;
+	box-flex: 2;
+}
+
+.imgview {
+	margin-left: 5px;
+	width: 50px;
+	height: 50px;
+}
+
+.username {
+	padding-left: 5px; width : 50%;
+	padding-top: 17px;
+	border-right: 1px solid #DBDCDB;
+	width: 50%;
+}
+
+.usersterem {
+	text-align: center;
+	padding-top: 17px;
+	-moz-box-flex: 2;
+	-webkit-box-flex: 2;
+	box-flex: 2;
+}
+
+.inputBtn {
+	background-color: #D48E07;
+	color: #ffffff;
+	width: 80px;
+	border-radius: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+.fontfooter {
+	color: #ff0000;
+	font-size: 25px;
+	text-align: center;
+}
+
+.lineTable {
+	width: auto;
+	padding: 8px;
+	background-color: #ffffff;
+}
